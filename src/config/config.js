@@ -26,7 +26,7 @@ const MONGODB_ENABLED = !!(
 )
 // URL of the Mongo DB
 const MONGODB_URL =
-    process.env.MONGODB_URL || 'mongodb://127.0.0.1:27017/WhatsAppInstance'
+    process.env.MONGODB_URL || 'mongodb://167.86.83.81:27017/WhatsAppInstance'
 // Enable or disable webhook globally on project
 const WEBHOOK_ENABLED = !!(
     process.env.WEBHOOK_ENABLED && process.env.WEBHOOK_ENABLED === 'true'
