@@ -1,5 +1,5 @@
 // Port number
-const PORT = process.env.PORT || '27017'
+const PORT = process.env.PORT || '3333'
 const TOKEN = process.env.TOKEN || ''
 const PROTECT_ROUTES = !!(
     process.env.PROTECT_ROUTES && process.env.PROTECT_ROUTES === 'true'
@@ -26,7 +26,7 @@ const MONGODB_ENABLED = !!(
 )
 // URL of the Mongo DB
 const MONGODB_URL =
-    process.env.MONGODB_URL || 'mongodb://167.86.83.81:27017/WhatsAppInstance'
+    process.env.MONGODB_URL || 'mongodb://167.86.83.81:3333/WhatsAppInstance'
 // Enable or disable webhook globally on project
 const WEBHOOK_ENABLED = !!(
     process.env.WEBHOOK_ENABLED && process.env.WEBHOOK_ENABLED === 'true'
